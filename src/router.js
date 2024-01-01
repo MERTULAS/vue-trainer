@@ -11,6 +11,13 @@ import Ref6 from './lessons/Ref6.vue';
 import Reactivity1 from './lessons/Reactivity1.vue';
 import Reactivity2 from './lessons/Reactivity2.vue';
 import Reactivity3 from './lessons/Reactivity3.vue';
+import Computed_0_intro from './lessons/Computed_0_intro.vue';
+import Computed_1_eComBasket from './lessons/Computed_1_eComBasket.vue';
+import Computed_2_Getter_Setter from './lessons/Computed_2_Getter_Setter.vue';
+import Computed_3_data_filter from './lessons/Computed_3_data_filter.vue';
+import Computed_4_form_validation from './lessons/Computed_4_form_validation.vue';
+import Computed_5_vs_methods from './lessons/Computed_5_vs_methods.vue';
+
 
 const routes = [
   { path: '/', component: HelloWorld },
@@ -22,7 +29,13 @@ const routes = [
   { path: '/lesson6', component: Ref6 },
   { path: '/lesson7', component: Reactivity1 },
   { path: '/lesson8', component: Reactivity2 },
-  { path: '/lesson9', component: Reactivity3 }
+  { path: '/lesson9', component: Reactivity3 },
+  { path: '/lesson10', component: Computed_0_intro },
+  { path: '/lesson11', component: Computed_1_eComBasket },
+  { path: '/lesson12', component: Computed_2_Getter_Setter },
+  { path: '/lesson13', component: Computed_3_data_filter },
+  { path: '/lesson14', component: Computed_4_form_validation },
+  { path: '/lesson15', component: Computed_5_vs_methods },
 ]
 
 const router = createRouter({
