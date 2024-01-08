@@ -1,0 +1,13 @@
+.animate__animated {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.animate__welcome {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.animate__goodbye {
+    transform: translateX(-100px);
+    opacity: 0;
+}

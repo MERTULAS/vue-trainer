@@ -17,7 +17,11 @@ import Computed_2_Getter_Setter from './lessons/Computed_2_Getter_Setter.vue';
 import Computed_3_data_filter from './lessons/Computed_3_data_filter.vue';
 import Computed_4_form_validation from './lessons/Computed_4_form_validation.vue';
 import Computed_5_vs_methods from './lessons/Computed_5_vs_methods.vue';
-
+import Transitions_without_builtin from './lessons/Transitions_without_builtin.vue';
+import Transitions_without_builtin2 from './lessons/Transitions_without_builtin2.vue';
+import Transitions_intro from './lessons/Transitions_intro.vue';
+import Transitions_named from './lessons/Transitions_named.vue';
+import Transitions_custom_classes from './lessons/Transitions_custom_classes.vue';
 
 const routes = [
   { path: '/', component: HelloWorld },
@@ -36,6 +40,13 @@ const routes = [
   { path: '/lesson13', component: Computed_3_data_filter },
   { path: '/lesson14', component: Computed_4_form_validation },
   { path: '/lesson15', component: Computed_5_vs_methods },
+  { path: '/lesson16', component: Transitions_without_builtin },
+  { path: '/lesson17', component: Transitions_without_builtin2 },
+  { path: '/lesson18', component: Transitions_intro},
+  { path: '/lesson19', component: Transitions_named},
+  { path: '/lesson20', component: Transitions_custom_classes},
+
+
 ]
 
 const router = createRouter({
