@@ -22,6 +22,13 @@ import Transitions_without_builtin2 from './lessons/Transitions_without_builtin2
 import Transitions_intro from './lessons/Transitions_intro.vue';
 import Transitions_named from './lessons/Transitions_named.vue';
 import Transitions_custom_classes from './lessons/Transitions_custom_classes.vue';
+import Transitions_nested from './lessons/Transitions_nested.vue';
+import Transitions_hooks from './lessons/Transitions_hooks.vue';
+import Transitions_component_usage from './lessons/Transitions_component_usage.vue';
+import Transitions_tab_change from './lessons/Transitions_tab_change.vue';
+import TransitionGroup_intro from './lessons/TransitionGroup_intro.vue';
+
+
 
 const routes = [
   { path: '/', component: HelloWorld },
@@ -42,11 +49,15 @@ const routes = [
   { path: '/lesson15', component: Computed_5_vs_methods },
   { path: '/lesson16', component: Transitions_without_builtin },
   { path: '/lesson17', component: Transitions_without_builtin2 },
-  { path: '/lesson18', component: Transitions_intro},
-  { path: '/lesson19', component: Transitions_named},
-  { path: '/lesson20', component: Transitions_custom_classes},
-
-
+  { path: '/lesson18', component: Transitions_intro },
+  { path: '/lesson19', component: Transitions_named },
+  { path: '/lesson20', component: Transitions_custom_classes },
+  { path: '/lesson21', component: Transitions_nested },
+  { path: '/lesson22', component: Transitions_hooks },
+  { path: '/lesson23', component: Transitions_component_usage },
+  { path: '/lesson24', component: Transitions_tab_change },
+  { path: '/lesson25', component: TransitionGroup_intro },
+  
 ]
 
 const router = createRouter({

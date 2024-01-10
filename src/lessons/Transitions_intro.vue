@@ -64,7 +64,7 @@ const blockToggle = ref(false);
 
 
 </script>
-<style>
+<style scoped>
 .container {
     display: flex;
     align-items: center;
